@@ -1,0 +1,3 @@
+CREATE DATABASE please;
+CREATE USER pleasework WITH PASSWORD 'newpassword';
+GRANT ALL PRIVILEGES ON DATABASE please TO pleasework;
